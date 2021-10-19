@@ -1,19 +1,24 @@
 define({
-  "name": "华瑞安接口文档",
-  "version": "0.0.1",
-  "description": "本文是华瑞安定制Rom 提供给客户开发的接口文档指南。",
-  "title": "HRA Apis",
+  "name": "比亚迪老化信息管控平台",
+  "version": "1.0.0",
+  "description": "台架通过发送HTTP请求，上报信息",
+  "title": "title",
+  "url": "https://192.168.0.8084/iot",
+  "order": [
+    "GetUser",
+    "PostUser"
+  ],
   "template": {
     "withCompare": true,
-    "withGenerator": false
+    "withGenerator": true
   },
   "sampleUrl": false,
   "defaultVersion": "0.0.0",
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2018-12-19T07:11:28.068Z",
-    "url": "http://apidocjs.com",
-    "version": "0.17.7"
+    "time": "2021-10-19T18:12:04.037Z",
+    "url": "https://apidocjs.com",
+    "version": "0.26.0"
   }
 });
