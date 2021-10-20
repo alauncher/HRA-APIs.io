@@ -22,10 +22,68 @@
     "type": "",
     "url": "",
     "version": "0.0.0",
-    "filename": "./byd_dest/main.js",
+    "filename": "./apis.io/main.js",
+    "group": "D:\\Software\\apis.io\\main.js",
+    "groupTitle": "D:\\Software\\apis.io\\main.js",
+    "name": ""
+  },
+  {
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "optional": false,
+            "field": "varname1",
+            "description": "<p>No type.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "varname2",
+            "description": "<p>With type.</p>"
+          }
+        ]
+      }
+    },
+    "type": "",
+    "url": "",
+    "version": "0.0.0",
+    "filename": "./byd_api/byd_dest/main.js",
     "group": "D:\\Software\\byd_api\\byd_dest\\main.js",
     "groupTitle": "D:\\Software\\byd_api\\byd_dest\\main.js",
     "name": ""
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "./home/sany_gitee_new/sany-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.spline.js",
+    "group": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
+    "groupTitle": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "./home/sany_gitee_new/sany-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.spline.js",
+    "group": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
+    "groupTitle": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "./home/sany_gitee_new/sany-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.spline.js",
+    "group": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
+    "groupTitle": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
+    "name": "Private"
   },
   {
     "type": "GET",
@@ -95,7 +153,7 @@
         }
       ]
     },
-    "filename": "./byd_src/message.js",
+    "filename": "./byd_api/byd_src/message.js",
     "groupTitle": "消息",
     "name": "GetMessage"
   },
@@ -181,7 +239,7 @@
         }
       ]
     },
-    "filename": "./byd_src/message.js",
+    "filename": "./byd_api/byd_src/message.js",
     "groupTitle": "消息",
     "name": "PostMessage"
   },
@@ -299,7 +357,7 @@
             "type": "Number",
             "optional": false,
             "field": "low_side_electricity",
-            "description": "<p>：高压侧电流.</p>"
+            "description": "<p>高压侧电流.</p>"
           },
           {
             "group": "Parameter",
@@ -394,7 +452,7 @@
         }
       ]
     },
-    "filename": "./byd_src/device.js",
+    "filename": "./byd_api/byd_src/device.js",
     "groupTitle": "设备"
   }
 ]
