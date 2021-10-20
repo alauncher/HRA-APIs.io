@@ -23,8 +23,8 @@ define({ "api": [
     "url": "",
     "version": "0.0.0",
     "filename": "./apis.io/main.js",
-    "group": "D:\\Software\\apis.io\\main.js",
-    "groupTitle": "D:\\Software\\apis.io\\main.js",
+    "group": "D:\\Software\\byd_api\\apis.io\\main.js",
+    "groupTitle": "D:\\Software\\byd_api\\apis.io\\main.js",
     "name": ""
   },
   {
@@ -50,40 +50,10 @@ define({ "api": [
     "type": "",
     "url": "",
     "version": "0.0.0",
-    "filename": "./byd_api/byd_dest/main.js",
+    "filename": "./byd_dest/main.js",
     "group": "D:\\Software\\byd_api\\byd_dest\\main.js",
     "groupTitle": "D:\\Software\\byd_api\\byd_dest\\main.js",
     "name": ""
-  },
-  {
-    "type": "",
-    "url": "private",
-    "title": "",
-    "version": "0.0.0",
-    "filename": "./home/sany_gitee_new/sany-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.spline.js",
-    "group": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
-    "groupTitle": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
-    "name": "Private"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "title": "",
-    "version": "0.0.0",
-    "filename": "./home/sany_gitee_new/sany-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.spline.js",
-    "group": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
-    "groupTitle": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
-    "name": "Private"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "title": "",
-    "version": "0.0.0",
-    "filename": "./home/sany_gitee_new/sany-admin/src/main/resources/static/ajax/libs/flot/jquery.flot.spline.js",
-    "group": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
-    "groupTitle": "D:\\Software\\home\\sany_gitee_new\\sany-admin\\src\\main\\resources\\static\\ajax\\libs\\flot\\jquery.flot.spline.js",
-    "name": "Private"
   },
   {
     "type": "GET",
@@ -153,7 +123,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./byd_api/byd_src/message.js",
+    "filename": "./byd_src/message.js",
     "groupTitle": "消息",
     "name": "GetMessage"
   },
@@ -239,7 +209,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./byd_api/byd_src/message.js",
+    "filename": "./byd_src/message.js",
     "groupTitle": "消息",
     "name": "PostMessage"
   },
@@ -452,7 +422,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./byd_api/byd_src/device.js",
+    "filename": "./byd_src/device.js",
     "groupTitle": "设备"
   }
 ] });
