@@ -1,59 +1,89 @@
 [
   {
+    "type": "POST",
+    "url": "/alarm",
+    "title": "Alarm",
+    "group": "报警",
+    "version": "1.0.0",
+    "description": "<p>报警，上报异常情况；</p>",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Number",
+            "optional": false,
+            "field": "id",
+            "description": "<p>老化架ID.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "status",
+            "description": "<p>状态</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "time",
+            "description": "<p>上报时间戳</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "error_code",
+            "description": "<p>异常码</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "error_msg",
+            "description": "<p>异常信息</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "请求参数格式 body/json:",
+          "content": "{\n\t\"id\": \"1234\",\n\t\"status\": \"online|offline|error\",\n\t\"time\": 1634666180,\n\t\"error_code\": \"80\",\n\t\"error_msg\": \"80\"\n}",
+          "type": "json"
+        }
+      ]
+    },
     "success": {
       "fields": {
         "Success 200": [
           {
             "group": "Success 200",
+            "type": "String",
             "optional": false,
-            "field": "varname1",
-            "description": "<p>No type.</p>"
+            "field": "code",
+            "description": "<p>错误码.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "varname2",
-            "description": "<p>With type.</p>"
+            "field": "message",
+            "description": "<p>错误信息.</p>"
           }
         ]
-      }
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{\n  \"code\": 0,\n  \"message\": \"success\"\n}",
+          "type": "json"
+        }
+      ]
     },
-    "type": "",
-    "url": "",
-    "version": "0.0.0",
-    "filename": "./apis.io/main.js",
-    "group": "D:\\Software\\byd_api\\apis.io\\main.js",
-    "groupTitle": "D:\\Software\\byd_api\\apis.io\\main.js",
-    "name": ""
-  },
-  {
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "optional": false,
-            "field": "varname1",
-            "description": "<p>No type.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "varname2",
-            "description": "<p>With type.</p>"
-          }
-        ]
-      }
-    },
-    "type": "",
-    "url": "",
-    "version": "0.0.0",
-    "filename": "./byd_dest/main.js",
-    "group": "D:\\Software\\byd_api\\byd_dest\\main.js",
-    "groupTitle": "D:\\Software\\byd_api\\byd_dest\\main.js",
-    "name": ""
+    "filename": "byd_src/message.js",
+    "groupTitle": "报警",
+    "name": "PostAlarm"
   },
   {
     "type": "GET",
@@ -123,99 +153,13 @@
         }
       ]
     },
-    "filename": "./byd_src/message.js",
+    "filename": "byd_src/message.js",
     "groupTitle": "消息",
     "name": "GetMessage"
   },
   {
-    "type": "POST",
-    "url": "/message",
-    "title": "Alarm",
-    "group": "消息",
-    "version": "1.0.0",
-    "description": "<p>报警，上报异常情况；</p>",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "id",
-            "description": "<p>老化架ID.</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "status",
-            "description": "<p>状态</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "time",
-            "description": "<p>上报时间戳</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "error_code",
-            "description": "<p>异常码</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "error_msg",
-            "description": "<p>异常信息</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "请求参数格式 body/json:",
-          "content": "{\n\t\"id\": \"1234\",\n\t\"status\": \"online|offline|error\",\n\t\"time\": 1634666180,\n\t\"error_code\": \"80\"\n\t\"error_msg\": \"80\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "code",
-            "description": "<p>错误码.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "message",
-            "description": "<p>错误信息.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"code\": 0,\n  \"message\": \"success\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "filename": "./byd_src/message.js",
-    "groupTitle": "消息",
-    "name": "PostMessage"
-  },
-  {
     "type": "post",
-    "url": "/upload",
+    "url": "/uploads",
     "title": "Upload Infos",
     "version": "1.0.0",
     "name": "uploadInfos",
@@ -422,7 +366,7 @@
         }
       ]
     },
-    "filename": "./byd_src/device.js",
+    "filename": "byd_src/device.js",
     "groupTitle": "设备"
   }
 ]
